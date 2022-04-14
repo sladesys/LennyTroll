@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+
+<link rel="shortcut icon" href="img/favicon.ico"/>
+
+<title>Lenny Script</title>
+<meta name="description" content="Lenny Script" />
+<meta name="keywords" content="Lenny"/>
+<meta name="publisher" content="Slade"/>
+
+<link rel="stylesheet" href="css/lt.css"/>
+<link rel="stylesheet" href="css/ltd.css" id="theme_dark"/>
+<link rel="stylesheet" href="css/ltl.css" id="theme_lite"/>
+
+<style>
+body {
+	overflow:scroll;
+}
+table {
+	width:100%;
+	border-spacing:0;
+	margin:40px 10 40px 10px;
+}
+td {
+	padding:10px;
+}
+
+</style>
+
+</head>
+<body>
+</body>
+<script>
+
+function readTextFile(file,callback) {
+    const rq = new XMLHttpRequest();
+    rq.overrideMimeType('application/json');
+    rq.open("GET",file,true);
+    rq.onreadystatechange = () => {
+        if (rq.readyState === 4 && rq.status == '200') {
+            callback(rq.responseText);
+        }
+    }
+    rq.send(null);
+}
+
+readTextFile('script.json',function(txt) {
+    const script = JSON.parse(txt);
+    //console.log(JSON.stringify(script));
+
+	const tbl = document.createElement('table');
+
+    {
+    	{
+			const tr = tbl.insertRow();
+			tr.insertCell().innerText = 'AUDIO';
+			tr.insertCell().innerText = 'SCRIPT';
+		}
+
+		const l = script.lenny;
+		for (let i=0;i<l.length;i++) {
+			const tr = tbl.insertRow();
+
+			{
+				const s = document.createElement('source');
+				s.src = 'opt/aud/lenny/lenny_'+(10>(1+i)?'0':'')+(1+i)+'.wav';
+				s.type = 'audio/wav';
+
+				const a = document.createElement('audio');
+				a.controls = true;
+				a.appendChild(s);
+				tr.insertCell().appendChild(a);
+			}
+
+			tr.insertCell().innerText = l[i];
+		}
+	}
+
+	const body = document.getElementsByTagName('BODY')[0];
+	body.appendChild(tbl);
+
+});
+
+
+</script>
+

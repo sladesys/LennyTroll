@@ -1,0 +1,1063 @@
+/*
+
+	font-family:'Avenir Next Demibold','Avenir Next','Avenir',Verdana,sans-serif;
+
+*/
+
+body {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+
+	font-family:Verdana,sans-serif;
+}
+
+div,p,span,a,a:hover,button,input[type=button] {
+	cursor:default;
+}
+input[type=text],input[type=email],textarea {
+	cursor:text;
+}
+
+/*
+input {
+	border-radius:0;
+	outline:0;
+	-webkit-appearance:none;
+}
+*/
+
+a,a:-webkit-any-link {
+	text-decoration:none;
+}
+a:hover,button,input {
+	cursor:default;
+}
+a,a:visited {
+	text-decoration:none;
+	color:#333;
+}
+
+fieldset,legend {
+	text-align:left;
+	border:1px solid;
+	border-radius:8px;
+}
+
+legend,legend span {
+	  white-space:nowrap;
+}
+legend span,legend a {
+	font-size:14px;
+	font-variant:small-caps;
+
+	padding:0 5px 0 5px;
+}
+@media only screen and (min-width: 400px) {
+	legend span,legend a {
+		font-size:20px;
+	}
+}
+
+
+/*
+
+*/
+button,input[type=button] {
+	text-transform:uppercase;
+}
+
+textarea,button,input[type=button],input[type=email],input[type=text] {
+
+	padding:3px;
+
+	outline:none;
+
+	border:1px solid;
+	border-radius:5px;
+
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+p,li {
+	line-height:1.6em;
+}
+
+.hidden { display:none; }
+
+fieldset legend {
+	font-variant:small-caps;
+/*	padding:2px 5px 2px 5px; */
+	border-radius:5px;
+	border:1px solid #ddd;
+}
+
+
+/*
+
+*/
+
+@media {
+	button,input[type=button] { height:45px;padding-left:10px;padding-right:10px; }
+	textarea,button,input[type=button],input[type=text],input[type=email] { font-size:16px; }
+}
+
+@media {
+	h1 { margin:0; font-size:16px; }
+	h2 { margin:0; font-size:14px; }
+	h3 { margin:0; font-size:12px; }
+}
+@media only screen and (min-width:600px) {
+	h1 { margin:0; font-size:22px; }
+	h2 { margin:0; font-size:18px; }
+	h3 { margin:0; font-size:16px; }
+}
+
+#menu a { font-size: 18px; }
+
+#home h1,#about h1,#hardware h1,#download h1,#start h1,#support h1 { font-size:18px; }
+
+#home_body_txt p,#about_body_txt p { font-size:14px; }
+#home_body_txt p a,#about_body_txt p a { font-size:15px;}
+
+#home_body_txt p a,#about_body_txt p a { font-weight:bold; font-variant:small-caps; color:#008; }
+
+#home_body_txt div.images { font-size:10px; }
+
+#lenny_at_work_list a:hover { background-color:inherit; }
+
+#start_body { font-size:14px; }
+
+#support form table td { font-size:10px; }
+#support_fr p { font-size:14px; }
+
+#hardware_fr h2 { font-size:16px; }
+#hardware_fr { font-size:14px; }
+#hardware_fr div a { font-size:14px; }
+#hardware_fr ol li { font-size:13px; }
+
+#download_release_info p { font-size:14px; }
+
+#support h2 { font-size:18px; }
+#support h3 { font-size:16px; }
+
+
+
+#download_versions table th { font-size:16px; }
+#download_versions table td { font-size:14px; }
+#download_versions p { font-size:12px; }
+#download_release_info h2 { font-size:20px; }
+div.articles .date { font-size:8px; }
+div.articles .title { font-size:10px; }
+
+
+
+
+
+/*
+
+*/
+
+.border { border:1px solid; }
+
+#hardware_fr div a {
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+#menu {
+	font-variant:small-caps;
+}
+
+#support h3 {
+	margin-top:0;
+}
+#support h3 { font-weight:bold; }
+
+#support div.items {
+	padding:2px;
+}
+
+#support div.item {
+	margin:8px;
+	padding:2px;
+}
+
+/*
+#support_fr div { margin-bottom:20px; }
+*/
+
+#support_fr h3 { margin-top:15px; }
+#faq { margin-bottom:20px; }
+
+
+
+#faq li.question:before { content:'+'; color:#ccc; font-size:24px; margin-left:-30px; padding-right:10px;}
+
+#faq li { margin:0 10px 0 0; padding:2px 2px 12px 6px; }
+#faq li:hover {
+	background-color:#ddd;
+}
+#faq ul {
+	margin:0 0 0 20px;
+	padding:0;
+}
+#faq ul div.answer {
+	margin:4px 10px 10px 10px;
+	padding:10px 12px 10px 10px;
+}
+#faq ul div.answer p {
+	margin:4px 0 10px 0;
+}
+#faq li.question { font-size:14px; }
+#faq .answer li { font-size:12px;  }
+#faq .answer p { font-size:12px; }
+#faq .answer ul li { list-style-type:disc; }
+
+#faq div.screen_shots,#faq div.screen_shots div {
+	margin:10px 3px 3px 3px;
+	padding:0;
+}
+
+
+
+
+
+
+#online_support {
+}
+
+
+#download_versions {
+	text-align:center;
+}
+#download_versions table {
+	border-collapse:collapse;
+	width:100%;
+	text-align:left;
+}
+#download_versions table th {
+	text-align:center;
+	background-color:#ddd;
+	font-weight:bold;
+}
+
+#download_versions table,#download_versions tr,#download_versions td {
+	border:1px solid #aaa;
+	padding:5px;
+}
+#download_versions td {
+	padding-left:15px;
+}
+
+#download_versions table a {
+	font-size:15px;
+	display:block;
+	padding:6px 0 10px 15px;
+}
+
+
+#download_release_info { margin:10px;padding:20px; }
+
+
+/*
+*/
+
+#about_body_ads,#hardware_getting_started {
+	margin:10px;
+}
+
+#home_body_txt div .item {
+	margin-bottom:20px;
+}
+
+#hardware_fr div .item {
+	margin-bottom:40px;
+}
+
+
+
+
+
+
+/*
+
+*/
+/*
+#about_body_txt div.screen_shots { display:flex; }
+#about_body_txt div.screen_shot { flex:1; }
+
+#about_body_txt div.screen_shots a { font-weight:bold;font-variant:small-caps;color:#008; }
+#about_body_txt div.screen_shots a { font-size:8px; }
+
+#about_body_txt div.screen_shot { display:inline-block;margin:4px;text-align:center;vertical-align:middle; }
+#about_body_txt div.screen_shot img { width:90%;height:auto; }
+#about_body_txt div.screen_shots a { margin:3px; border:1px solid #ddd; }
+#about_body_txt div.screen_shots a:hover { background-color:inherit; border:1px solid #888; }
+
+
+#start_body div.screen_shots { display:flex; }
+#start_body div.screen_shot { flex:1; }
+
+#start_body div.screen_shots a { font-weight:bold;font-variant:small-caps;color:#008; }
+#start_body div.screen_shots a { font-size:8px; }
+
+#start_body div.screen_shot { display:inline-block;margin:4px;text-align:center;vertical-align:middle; }
+#start_body div.screen_shot img { width:90%;height:auto; }
+#start_body div.screen_shots a { margin:3px; border:1px solid #ddd; }
+#start_body div.screen_shots a:hover { background-color:inherit; border:1px solid #888; }
+*/
+
+#about_body_txt div.screen_shot img { width:90%;height:auto; }
+#start_body     div.screen_shot img { width:90%;height:auto; }
+
+/*
+
+*/
+div.screen_shots { display:flex; }
+div.screen_shot { flex:1; text-align:center;}
+
+div.screen_shots a { text-align:center; }
+div.screen_shots a { font-weight:bold;font-variant:small-caps;color:#008; }
+div.screen_shots a { font-size:8px; }
+
+div.screen_shot { display:block;margin:4px;vertical-align:middle; }
+div.screen_shot img { display:inline-block; }
+div.screen_shot img { width:100%; height:auto; }
+div.screen_shots a { margin:3px; border:1px solid #ddd; }
+div.screen_shots a:hover { background-color:inherit; border:1px solid #888; }
+
+
+
+/*
+*/
+
+div.terminal_fr {
+	margin-left:20px;
+	margin-top:14px;
+	margin-bottom:15px;
+}
+div.terminal_fr h4 {
+	margin:0px;
+	padding:0px;
+}
+
+div.terminal {
+	max-width:40em;	
+}
+div.terminal pre {
+	white-space:normal;
+	font-family:monospace;
+
+	margin:0;
+	padding:10px;
+	border:3px solid;
+
+	color:#4f4;
+	background-color:#222;
+	border-color:#bbb;
+}
+
+@media {
+	div.terminal pre { font-size:8px; }
+}
+@media only screen and (min-width:400px) {
+	div.terminal pre { font-size:10px; }
+}
+@media only screen and (min-width:700px) {
+	div.terminal pre { font-size:12px; }
+}
+
+/*
+
+*/
+
+
+
+
+/*
+*/
+
+@media only screen and (min-width:600px) {
+	div.download_contact { display:flex; }
+	div.download_contact_txt { flex:1; }
+	div.download_contact_side { flex:0 0 240px; }
+}
+
+
+
+
+
+/*
+
+*/
+
+div.contact {
+	border-spacing:6px;
+}
+
+
+
+
+/*
+
+*/
+
+#contact_form fieldset { width:80%; }
+#contact_form fieldset legend {
+	background-color:#ddd;
+}
+
+#contact_form label {
+	font-size:11px;
+}
+
+#contact_form input[type=text],#contact_form input[type=email],#contact_form textarea {
+	width:96%;
+}
+#contact_form input[type=text],#contact_form input[type=email] {
+	height:2em;
+}
+#contact_form input[type=text],#contact_form input[type=email],#contact_form textarea {
+	font-family:Courier New, Courier, monospace;
+/*	padding-left:10px; */
+}
+#contact_form input[type=text]::placeholder,#contact_form input[type=email]::placeholder {
+	padding-left:4px;
+	color:#888;
+}
+
+
+#contact_form input[type=text],#contact_form input[type=email],#contact_form textarea {
+	font-size:14px;
+}
+#contact_form input[type=button] {
+	font-size:10px;
+}
+#contact_form input[type=text],#contact_form input[type=email],#contact_form textarea {
+	margin-bottom:10px;
+}
+
+
+
+/*
+*/
+div.comment {
+	border-spacing:6px;
+}
+#comment_form {
+	font-size:11px;
+}
+
+
+#comment_form div div div {
+	vertical-align:middle;
+}
+
+
+#comment_form input[type=text],#comment_form input[type=email] {
+	height:2em;
+}
+#comment_form input[type=text],#comment_form input[type=email],#comment_form textarea {
+	width:90%;
+	font-family:Courier New, Courier, Helvetica;
+	padding-left:10px;
+}
+#comment_form input[type=text]::placeholder,#comment_form input[type=email]::placeholder {
+	padding-left:4px;
+	color:#888;
+}
+
+
+#comment_form input[type=text],#comment_form input[type=email],#comment_form textarea {
+	font-size:14px;
+}
+#comment_form input[type=button] {
+	font-size:10px;
+}
+
+
+/*
+
+*/
+div img { width:90%;height:auto; }
+
+@media {
+	#home_top {   display:flex; }
+	#home_img {   display:flex; flex-grow:3;justify-content:center;align-items:center; }
+	#home_audio { display:flex; flex-grow:1;justify-content:center;align-items:center; }
+}
+
+
+@media only screen and (max-width:750px) {
+	#home_top { display:block; }
+}
+
+
+/*
+
+*/
+#home_audio fieldset {
+	margin:10px 30px 10px 10px;
+}
+#home_audio audio {
+	display:block;
+	margin-top:15px;
+}
+#home_audio fieldset p {
+	font-size:10px;
+}
+#audio_others div {
+	margin:4px 0 4px 0;
+}
+#audio_others {
+	margin-top:10px;
+	font-size:10px;
+}
+
+span.audio_clip_but { vertical-align:middle; }
+span.audio_clip_but { font-size:18px;padding-left:10px;margin-right:10px; }
+div.audio { font-size:10px; }
+div.audio_clip:hover { background-color:#ddd; }
+
+/*
+
+*/
+@media {
+	#home_body { display:flex; }
+	#home_body_txt { flex:1; }
+}
+
+@media only screen and (min-width:660px) {
+	#home_body_side { flex:0 0 240px; }
+}
+@media only screen and (min-width:800px) {
+	#home_body_side { flex:0 0 300px; }
+}
+@media only screen and (min-width:900px) {
+	#home_body_side { flex:0 0 400px; }
+}
+
+@media only screen and (max-width:600px) {
+	#home_body { display:block; }
+}
+
+#home_body_txt p,#about p,#hardware p,#download p,#support p {
+	line-height:1.5em;
+	margin:10px 8px 10px 8px;
+}
+
+/*
+#about p {
+	padding:0 20px 0 10px;
+}
+*/
+
+#home_body_txt fieldset {
+	margin:10px 10px 10px 10px;
+}
+#hardware_getting_started fieldset div { font-size:8px;text-align:center; }
+#home_body_txt div.images,#hardware_getting_started div.images {
+	text-align:center;
+	margin-bottom:20px;
+}
+#home_body_txt div.images div.item,
+#hardware_getting_started div.images div.item {
+	text-align:center;
+}
+
+#home_body_txt div.images div.item,#hardware_getting_started div.images div.item {
+	display:inline-block;
+}
+
+#home_body_side fieldset {
+	margin:10px 30px 10px 10px;
+	min-height:300px;
+}
+#home_body_side fieldset legend {
+	font-variant:small-caps;
+}
+
+#home_body_txt fieldset,#home_body_txt fieldset legend {
+	background-color:#eee;
+}
+#home_body_side fieldset,#home_body_side fieldset legend {
+	background-color:#eee;
+}
+
+#hardware_fr fieldset {
+	background-color:#eee;
+}
+#hardware_fr fieldset legend {
+	background-color:#ddd;
+}
+
+#download_body fieldset {
+	background-color:#eee;
+	margin:10px;
+}
+#download_body fieldset legend {
+	background-color:#ddd;
+}
+
+
+
+
+#download #download_body_txt .border {
+	margin:10px;
+	padding:2px;
+}
+#download #download_body_txt h3 {
+	margin:0px;
+	padding:0px;
+}
+#download #download_body_txt h2 {
+	background-color:inherit;
+}
+
+#start_body {
+	padding:10px;
+}
+
+#start_body h3 {
+	margin:0px;
+	padding:0px;
+}
+#start_body div.item {
+	padding:20px;
+	margin-bottom:14px;
+	min-height:60px;
+}
+
+div.articles {
+}
+
+div.articles div.frame {
+	margin:2px 2px 4px 2px;
+	background-color:#ddd;
+}
+div.articles div {
+	padding:2px;
+}
+div.articles p {
+	margin:0;
+	padding:0;
+	background-color:inherit;
+}
+
+#home_audio fieldset,#about_body_txt fieldset {
+	background-color:#eee;
+	border-color:#444;
+}
+
+#home_audio fieldset legend,#about_body_txt fieldset legend {
+	background-color:#ddd;
+	border-color:#ccc;
+}
+#home_audio fieldset audio {
+	border:1px solid#888;
+}
+div.articles div.frame:hover {
+	background-color:#ccc;
+}
+div.articles .date {
+	color:#888;
+}
+
+
+
+/*
+
+*/
+#about img { width:120px;height:auto; }
+
+
+@media {
+	#home,#about,#hardware,#download,#start,#support { border:1px solid #888; }
+	#home,#about,#hardware,#download,#start,#support { margin:30px 10px 0 10px; padding:0; }
+}
+@media only screen and (max-width:600px) {
+	#home,#about,#hardware,#download,#start,#support { border:0; }
+	#home,#about,#hardware,#download,#start,#support { margin:40px 0 0 0; }
+}
+
+#title { text-align:left;margin-left:6px; }
+#stuff { text-align:center; }
+
+
+#bottom { margin-top:30px; }
+#bottom,#bottom a { background-color:#444;color:#fff;padding:6px; }
+#bottom a:hover { background-color:#666; }
+
+#follow {
+	display:inline-block;
+	vertical-align:top;
+}
+
+#follow a {
+	display:block;
+}
+
+#follow img {
+	vertical-align:middle;
+	margin-right:10px;
+	width:30px;
+	height:auto;
+	margin-left:10px;
+}
+#footer { font-size:8px;text-align:center;margin:20px 0 10px 0; }
+
+#home h1,#about h1,#hardware h1,#download h1,#start h1,#support h1 {
+	margin:0 0 14px 0;
+	padding:6px;
+}
+
+#home h1,#about h1,#hardware h1,#download h1,#start h1,#support h1 {
+	font-variant:small-caps;
+}
+
+#home h1,#about h1,#hardware h1,#download h1,#start h1,#support h1 {
+	background-color:#ccc;
+}
+
+
+
+
+
+
+#license_add_vid {
+	width:135px;
+	height:240px;
+}
+
+
+video {
+	border:1px solid #888;
+}
+
+div.answer {
+	background-color:#eee;
+}
+div.answer ol {
+	padding-left:15px;
+}
+div.answer p {
+}
+
+div.screen_vid {
+	position:relative;
+	float:right;
+	display:inline-block;
+	top:5px;
+	left:0;
+	margin:0 0 0 10px;
+	text-align:right;
+}
+div.play_cover_fr,div.play_cover { 
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:88%;
+	margin:0;
+	padding:0;
+}
+
+div.play_cover { 
+	background-color:rgba(255,255,255,0.5);
+	text-align:center;
+}
+
+div.play {
+	margin:40px 10px 0 10px;
+	background-color:rgba(255,255,255,0.2);
+	color:#666;
+	font-size:40px;
+}
+
+
+
+/*
+*/
+#wrapper { display:flex; }
+
+#menu { flex:0 0 140px; }
+#home,#about,#hardware,#download,#start,#support { flex:1; }
+
+#menu { padding-top:50px; }
+#menu a { display:block;padding:10px 25px 10px 10px; }
+
+input#menu_check { display:none; }
+
+
+/*
+
+*/
+
+@media only screen and (max-width:600px) {
+	#menuToggle { width: 40px; }
+
+	input#menu_check { display:block; }
+
+	#menuToggle {
+	  display: block;
+	  position: relative;
+	  top: 40px;
+	  left: 5px;
+	  
+	  z-index: 1;
+	  
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	   -ms-user-select: none;
+	       user-select: none;
+	}
+
+	#menuToggle a {
+	  text-decoration: none;
+	  
+	  transition: color 0.3s ease;
+	}
+
+
+	#menuToggle input {
+	  display: block;
+	  width: 40px;
+	  height: 32px;
+	  position: absolute;
+	  top: -7px;
+	  left: -5px;
+	  
+	  cursor: pointer;
+	  
+	  opacity: 0; /* hide this */
+	  z-index: 2; /* and place it over the hamburger */
+	  
+	  -webkit-touch-callout: none;
+	}
+
+	/*
+	 * Just a quick hamburger
+	 */
+	#menuToggle span {
+	  display: block;
+	  width: 33px;
+	  height: 4px;
+	  margin-bottom: 5px;
+	  position: relative;
+	  
+	  border-radius: 3px;
+	  
+	  z-index: 1;
+	  
+	  -webkit-transform-origin: 4px 0px;
+	          transform-origin: 4px 0px;
+	  
+	  transition: background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+	              opacity 0.55s ease,
+	              -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	  
+	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+	              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+	              opacity 0.55s ease;
+	  
+	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+	              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+	              opacity 0.55s ease,
+	              -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	}
+
+	#menuToggle span:first-child {
+	  -webkit-transform-origin: 0% 0%;
+	          transform-origin: 0% 0%;
+	}
+
+	#menuToggle span:nth-last-child(2) {
+	  -webkit-transform-origin: 0% 100%;
+	          transform-origin: 0% 100%;
+	}
+
+	/* 
+	 * Transform all the slices of hamburger into a crossmark
+	 */
+	#menuToggle input:checked ~ span {
+	  opacity: 1;
+	  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+	          transform: rotate(45deg) translate(-2px, -1px);
+	}
+
+	/*
+	 * But let's hide the middle one.
+	 */
+	#menuToggle input:checked ~ span:nth-last-child(3) {
+	  opacity: 0;
+	  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+	          transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	/*
+	 * Oh yeah and the last one should go the other direction
+	 */
+	#menuToggle input:checked ~ span:nth-last-child(2) {
+	  -webkit-transform: rotate(-45deg) translate(0, -1px);
+	          transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	/*
+	 * Make this absolute positioned at the top left of the screen
+	 */
+	#menu {
+	  position:absolute;
+	  margin:-50px 0 0 -50px;
+	  padding:50px 0 160px 45px;
+
+	  list-style-type:none;
+	  -webkit-font-smoothing:antialiased;
+	  /* to stop flickering of text in safari */
+	  
+	  -webkit-transform-origin:0% 0%;
+	  
+	          transform-origin:0% 0%;
+	  -webkit-transform: translate(-100%,0);
+	          transform: translate(-100%,0);
+	  
+	  transition: -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	  
+	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	  
+	  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), -webkit-transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	}
+
+	#menu a {
+	  padding: 10px 25px 10px 10px;
+	  white-space:nowrap;
+	}
+
+	/*
+	 * And let's slide it in from the left
+	 */
+	#menuToggle input:checked ~ #menu {
+	  -webkit-transform: none;
+	          transform: none;
+	}
+
+}
+
+
+
+
+/*
+
+*/
+
+.popup-box { width:80%; min-height:80%; }
+
+.popup-frame {
+	background-color:#ffffffc0;
+}
+.popup-box {
+	background-color:#eee;
+	border-color:#666;
+}
+
+.popup-frame {
+    transition:500ms;
+	-webkit-transition:.5s;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+	width:100%;
+	height:100%;
+
+    margin:0;
+	padding:50px 0;
+
+	text-align:center;
+	vertical-align:middle;	
+}
+
+.popup-box {
+	display:inline-block;
+	border:1px solid;
+	padding-bottom:6px;
+}
+.popup-box {
+	overflow-y:scroll;
+	-webkit-overflow-scrolling:touch;
+}
+
+
+
+
+
+/*
+
+*/
+
+
+#cha_box {
+	text-align:center;
+	margin-bottom:6px;
+}
+#cha_box input[type=checkbox] {
+	width:22px;
+
+	        transform:scale(2);
+	-webkit-transform:scale(2,2);
+}
+div#cha_box,#cha div { margin-bottom:5px; }
+
+#cha legend,#cha_box span {
+	font-size:11px;	
+}
+
+#cha {
+	text-align:center;
+	margin-bottom:10px;
+}
+#cha fieldset {
+	text-align:center;
+	display:inline-block;
+}
+#cha_fr {
+	text-align:center;
+}
+#cha_fr input[type=text] {
+	text-align:center;
+	display:inline-block;
+	width:6em;
+	font-family:Courier;
+	font-size:16px;
+	letter-spacing:3px;
+}
+#cha_msg {
+	font-size:8px;
+	font-weight:bold;
+	text-align:center;
+	padding-left:9px;
+	padding-right:9px;	
+}
+#cha_img {
+	text-align:center;
+}
+#cha_img canvas {
+	display:inline-block;
+	margin:10px 0 10px 0;
+	background-image:url('../img/captcha.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:150px 60px;
+}
+#cha_but {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+
+
+

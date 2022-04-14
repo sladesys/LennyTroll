@@ -1,0 +1,12 @@
+
+
+lenny
+lenny-arm32
+lenny-arm64
+
+*.dSYM
+
+
+out.log
+
+

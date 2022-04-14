@@ -1,0 +1,94 @@
+/*
+
+
+*/
+
+body {
+	color:#000;
+	background-color:#fff;
+}
+
+a,a:-webkit-any-link {
+	color:#000;
+}
+a:hover,button,input {
+	background-color:#ddd;
+	color:#000;
+}
+
+legend {
+	background-color:#fff;
+}
+
+fieldset {
+	border:1px solid #444;
+}
+
+legend span,legend a {
+	background-color:#fff;
+}
+
+button:hover,input[type=button]:hover {
+	background-color:#eee;
+}
+
+textarea,button,input[type=button],input[type=submit],input[type=text] {
+	color:#000;
+	background-color:#ccc;
+	border:1px solid #bbb;
+}
+
+
+h2 { color:#888; }
+h3 { color:#888; }
+
+#main h2 {
+	color:#fff;
+	background-color:#bbb;
+}
+
+.border {
+	border-color:#ddd;
+}
+
+.popup-frame {
+	background-color:#ffffffc0;
+}
+
+
+
+
+/*
+
+*/
+
+@media only screen and (max-width:600px) {
+
+	#menuToggle a {
+	  color:#000;
+	}
+
+	#menuToggle a:hover {
+	  color:#eee;
+	}
+
+	#menuToggle input {
+	  background-color:#000;
+	}
+
+	#menuToggle span {
+	  background-color:#aaa;
+	}
+
+	#menuToggle input:checked ~ span {
+	  background-color:#aaa;
+	}
+
+	#menu {
+	  background-color:#eee;
+	}
+
+}
+
+
+

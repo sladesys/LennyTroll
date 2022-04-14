@@ -1,0 +1,393 @@
+/*
+
+*/
+
+body {
+	color:#fff;
+	background-color:#000;
+}
+
+input[type=checkbox] {
+	border-color:#aaa;
+	background-color:#333;
+	color:#fff;
+}
+
+a {
+	color:#fff;
+}
+
+/*
+legend span,legend a {
+	background-color:#000;
+}
+*/
+
+fieldset {
+	border-color:#555;
+	background-color:#111;
+}
+legend {
+	border-color:#555;
+	background-color:#222;
+}
+
+button,input[type=button],input[type=text],input[type=password] {
+	color:#fff;
+	border-color:#555;
+	background-color:#444;
+}
+@media only screen {
+	button:hover,input[type=button]:hover,input[type=text]:hover,input[type=password]:hover {
+		background-color:#555;
+	}
+}
+
+#top {
+	border-color:green;
+}
+
+#title h1 {
+	color:#fff;
+}
+#title h2 {
+	color:#aaa;
+}
+#title h3 {
+	color:#888;
+}
+
+.hover:hover {
+	background-color:#222;
+}
+
+
+/*
+fieldset {
+	background-color:#111;
+	border-color:#666;
+}
+legend {
+	border-color:#222;
+}
+*/
+
+
+#activity_items fieldset.activity_line {
+	border-color:#555;
+	background-color:#333;
+}
+#activity_items div.call_actions {
+	background-color:#4a4;
+}
+#settings_items legend span,#settings_items fieldset,
+#settings_items legend span,#settings_items fieldset {
+	background-color:#222;
+}
+#calls_new .tableRow {
+	background-color:#222;
+}
+#calls_new .tableRow.not_active {
+	background-color:#111;
+}
+
+#history_items .tableRow,#calls_items .tableRow {
+	background-color:#333;
+}
+#history_items .tableRow.not_active,#calls_items .tableRow.not_active {
+	background-color:#111;
+}
+
+@media only screen {
+
+	#history_items .tableRow:hover,#calls_items .tableRow:hover,#calls_new .tableRow:hover {
+		background-color:#444;
+	}
+
+	#calls_new .tableRow:hover {
+		background-color:#333;
+	}
+	#calls_new .tableHeader:hover,#calls_new .spacer:hover {
+		background-color:#111;
+	}
+
+	#history_items .tableHeader:hover,#history_items .spacer:hover,
+	#calls_items .tableHeader:hover,#calls_items .spacer:hover {
+		background-color:#111;
+	}
+
+	#settings_options td:hover {
+		background-color:#333;
+	}
+
+	.tableHeader:hover,.not_active:hover {
+		background-color:#111;
+	}
+}
+
+.tableHeader,.not_active {
+	background-color:#111;
+}
+
+
+
+
+
+#settings_items legend button.number {
+	border-color:#222;
+	background-color:#222;
+}
+#settings_items legend button.number:hover {
+	background-color:#333;	
+}
+
+#settings_items input[type=text] {
+	background-color:#000;
+	color:#fff;
+}
+
+#left {
+	background-color:#888;
+	border-color:#aaa;
+}
+#right {
+	background-color:#888;
+	border-color:#aaa;
+}
+
+#left input[type=button] {
+	-webkit-tap-highlight-color:#aaa;
+}
+#right input[type=button] {
+	-webkit-tap-highlight-color:#aaa;
+}
+@media only screen {
+	#left input[type=button]:hover,#left input[type=button]:focus {
+		background-color:#666;
+	}
+	#right input[type=button]:hover,#right input[type=button]:focus {
+		background-color:#666;
+	}
+}
+
+
+/*
+
+*/
+
+#nav_bar {
+	color:#ccc;
+	background-color:#333;
+}
+
+#nav_bar td.active {
+	background-color:#444;
+	color:#fff;
+}
+#nav_bar .tableCell.active {
+	background-color:#444;
+	color:#fff;
+}
+
+@media only screen {
+	#nav_bar td:hover {
+		background-color:#444;
+	}
+	#nav_bar .tableCell.active:hover {
+		background-color:#444;
+	}
+}
+
+
+/* The slider */
+.slider {
+  background-color:#666;
+}
+
+.slider:before {
+  background-color:#fff;
+}
+
+input:checked + .slider {
+  background-color:#2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+
+#signin div.red { 
+	color:#f66;
+}
+
+#skiplist tr {
+	background-color:#222;
+}
+
+#skiplist .tableRow {
+	background-color:#222;
+}
+
+@media only screen {
+	#skiplist tr:hover {
+		background-color:#222;
+	}
+	#skiplist tr.not_active:hover {
+		background-color:#222;
+	}
+	button.not_active:hover {
+		background-color:#333;
+	}
+
+	#skiplist .tableRow:hover {
+		background-color:#222;
+	}
+	#skiplist .tableRow.not_active:hover {
+		background-color:#222;
+	}
+	button.not_active:hover {
+		background-color:#222;
+	}
+}
+
+#popup_history a,#popup_ogm_current a,#popup_ogm_aud a {
+	color:#aaa;
+}
+
+@media only screen {
+	#popup_history a:hover,#popup_ogm_current a:hover,#popup_ogm_aud a:hover {
+		color:#333;
+	}
+	#popup_ogm_nav a:hover {
+		color:#666;
+	}
+}
+
+@media only screen {
+	#popup_history_nav a:hover {
+		color:#666;
+	}
+}
+
+
+#popup_ogm_aud canvas,#popup_ogm_current canvas,#popup_history canvas,canvas.green,div.audio_play canvas {
+	background-color:#161;
+	border:2px solid #444;
+}
+
+#popup_history #counter {
+	color:#ccc;
+}
+
+
+.popup-frame {
+	background-color:#000000A0;
+}
+
+.popup-box {
+	background-color:rgba(30,30,30,1);
+	border-color:#aaa;
+}
+
+.popup-head {
+	background-color: rgba(100,100,100,.8);
+	color:#fff;
+}
+
+
+#err_mic {
+	color:#f66;
+}
+
+
+div.profile_lenny_img_fr h1 {
+	color:#aaa;
+}
+div.profile_lenny_img_fr h2 {
+	color:#aaa;
+}
+div.profile_lenny_img_fr h1 span {
+	color:#fff;
+}
+
+div.profiles_frame tr {
+	background-color:#333;
+}
+div.profiles_frame tr.not_active {
+	background-color:#222;
+}
+
+
+div.profiles_frame .tableRow {
+	background-color:#333;
+}
+div.profiles_frame .tableRow.not_active {
+	background-color:#222;
+}
+#profile_choice td.done {
+	background-color:#222;
+}
+#profile_choice td {
+	background-color:#333;
+}
+
+#profile_choice .tableCell {
+	background-color:#333;
+}
+
+@media only screen {
+	div.profiles_frame tr.done,div.profiles_frame tr.done:hover {
+		background-color:#222;
+	}
+
+	div.profiles_frame .tableRow.done,div.profiles_frame .tableRow.done:hover {
+		background-color:#222;
+	}
+	div.profiles_frame .tableRow:hover {
+		background-color:#444;
+	}
+	div.profiles_frame .not_active:hover {
+		background-color:#333;
+	}
+
+
+	#profile_choice td:hover {
+		background-color:#444;
+	}
+
+	#profile_choice .tableCell:hover {
+		background-color:#444;
+	}
+	#profile_choice .not_active.done:hover {
+		background-color:#222;
+	}
+	#profile_choice .not_active:hover {
+		background-color:#333;
+	}
+}
+
+
+
+select {
+	color:#fff;
+	background:#000;
+	border-color:#444;
+}
+@media only screen {
+	select:hover {
+		background-color:#444;
+	}
+}
+
+
+/*
+
+*/
+.loader {
+	border:10px solid #333;
+	border-top:10px solid #3498db; /* Blue */
+	border-right:10px solid #3498db; /* Blue */
+	border-bottom:10px solid #3498db; /* Blue */
+}
+

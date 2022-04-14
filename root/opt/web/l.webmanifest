@@ -1,0 +1,23 @@
+{
+  "short_name": "Lenny Troll",
+  "name": "Lenny Trolls Telemarketers",
+  "description": "Lenny Trolls Telemarketers",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "icons": [
+  {
+    "src": "img/lenny_192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "img/lenny_512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+  ]
+}

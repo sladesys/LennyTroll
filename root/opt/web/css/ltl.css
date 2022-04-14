@@ -1,0 +1,403 @@
+/*
+
+*/
+
+body {
+	color:#000;
+	background-color:#fff;
+}
+
+input[type=checkbox] {
+	border-color:#666;
+	background-color:#ccc;
+	color:#000;
+}
+
+a {
+	color:#000;
+}
+
+/*
+legend span,legend a {
+	background-color:#eee;
+}
+*/
+
+fieldset {
+	border-color:#bbb;
+	background-color:#eee;
+}
+legend {
+	border-color:#bbb;
+	background-color:#ddd;
+}
+
+button,input[type=button],input[type=text],input[type=password] {
+	color:#000;
+	border-color:#888;
+	background-color:#ccc;
+}
+@media only screen {
+	button:hover,input[type=button]:hover,input[type=text]:hover,input[type=password]:hover {
+		background-color:#bbb;
+	}
+}
+
+#top {
+	border-color:green;
+}
+
+#title h1 {
+	color:#666;
+}
+#title h2 {
+	color:#aaa;
+}
+#title h3 {
+	color:#ccc;
+}
+
+.hover:hover {
+	background-color:#ddd;
+}
+
+
+/*
+fieldset {
+	background-color:#ddd;
+	border-color:#eee;
+}
+legend {
+	border-color:#aaa;
+}
+*/
+
+
+
+#activity_items fieldset.activity_line {
+	border-color:#ccc;
+	background-color:#ddd;
+}
+#activity_items div.call_actions {
+	background-color:#4a4;
+}
+#settings_items legend span,#settings_items fieldset,
+#settings_items legend span,#settings_items fieldset {
+	background-color:#ddd;
+}
+#calls_new .tableRow {
+	background-color:#ccc;
+}
+#calls_new .tableRow.not_active {
+	background-color:#ddd;
+}
+
+#history_items .tableRow,#calls_items .tableRow {
+	background-color:#ddd;
+}
+#history_items .tableRow.not_active,#calls_items .tableRow.not_active {
+	background-color:#eee;
+}
+
+@media only screen {
+
+	#history_items .tableRow:hover,#calls_items .tableRow:hover,#calls_new .tableRow:hover {
+		background-color:#ccc;
+	}
+
+	#calls_new .tableRow:hover {
+		background-color:#bbb;
+	}
+	#calls_new .tableHeader:hover,#calls_new .spacer:hover {
+		background-color:#ddd;
+	}
+
+	#history_items .tableHeader:hover,#history_items .spacer:hover,
+	#calls_items .tableHeader:hover,#calls_items .spacer:hover {
+		background-color:#eee;
+	}
+
+	#settings_options td:hover {
+		background-color:#ccc;
+	}
+
+	.tableHeader:hover,.not_active:hover {
+		background-color:#eee;	
+	}
+}
+
+
+.tableHeader,.not_active {
+	background-color:#eee;	
+}
+
+
+
+
+
+
+#settings_items legend button.number {
+	border-color:#ddd;
+	background-color:#ddd;
+}
+#settings_items legend button.number:hover {
+	background-color:#ccc;	
+}
+
+#settings_items input[type=text] {
+	background-color:#fff;
+	color:#000;
+}
+
+#left {
+	background-color:#888;
+	border-color:#666;
+}
+#right {
+	background-color:#888;
+	border-color:#666;
+}
+
+#left input[type=button] {
+	-webkit-tap-highlight-color:#666;
+}
+#right input[type=button] {
+	-webkit-tap-highlight-color:#666;
+}
+@media only screen and (min-width: 1025px) {
+	#left input[type=button]:hover,#left input[type=button]:focus {
+		background-color:#aaa;
+	}
+	#right input[type=button]:hover,#right input[type=button]:focus {
+		background-color:#aaa;
+	}
+}
+
+
+/*
+
+*/
+
+#nav_bar {
+	color:#444;
+	background-color:#ddd;
+}
+
+#nav_bar td.active {
+	background-color:#bbb;
+	color:#000;
+}
+#nav_bar .tableCell.active {
+	background-color:#bbb;
+	color:#000;
+}
+
+@media only screen {
+	#nav_bar td:hover {
+		background-color:#ccc;
+	}
+	#nav_bar .tableCell.active:hover {
+		background-color:#bbb;
+	}
+}
+
+
+
+/* The slider */
+.slider {
+  background-color:#444;
+}
+
+.slider:before {
+  background-color:#ccc;
+}
+
+input:checked + .slider {
+  background-color:#2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+
+#signin div.red { 
+	color:#f66;
+}
+
+#skiplist tr {
+	background-color:#eee;
+}
+
+#skiplist .tableRow {
+	background-color:#eee;
+}
+
+@media only screen {
+
+	#skiplist tr:hover {
+		background-color:#ddd;
+	}
+	#skiplist tr.not_active:hover {
+		background-color:#ddd;
+	}
+
+	#skiplist .tableRow:hover {
+		background-color:#ddd;
+	}
+	#skiplist .tableRow.not_active:hover {
+		background-color:#ddd;
+	}
+	button.not_active:hover {
+		background-color:#ddd;
+	}
+}
+
+#popup_history a,#popup_ogm_current a,#popup_ogm_aud a {
+	color:#666;
+}
+
+@media only screen {
+	#popup_history a:hover,#popup_ogm_current a:hover,#popup_ogm_aud a:hover {
+		color:#000;
+	}
+
+	#popup_ogm_nav a:hover {
+		color:#ccc;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	#popup_history_nav a:hover {
+		color:#ccc;
+	}
+}
+
+
+#popup_ogm_aud canvas,#popup_ogm_current canvas,#popup_history canvas,canvas.green,div.audio_play canvas {
+	background-color:#070;
+	border:2px solid #ddd;
+}
+
+#popup_history #counter {
+	color:#444;
+}
+
+
+
+.popup-frame {
+	background-color:#ffffffc0;
+}
+
+.popup-box {
+	background-color:#eee;
+	border-color:#666;
+}
+
+.popup-head {
+	background-color:#ccc;
+	color:#000;
+}
+
+
+#err_mic {
+	color:#f66;
+}
+
+
+div.profile_lenny_img_fr h1 {
+	color:#666;
+}
+div.profile_lenny_img_fr h2 {
+	color:#666;
+}
+div.profile_lenny_img_fr h1 span {
+	color:#000;
+}
+
+div.profiles_frame tr {
+	background-color:#ddd;
+}
+div.profiles_frame tr.not_active {
+	background-color:#eee;
+}
+
+div.profiles_frame .tableRow {
+	background-color:#ddd;
+}
+div.profiles_frame .tableRow.not_active {
+	background-color:#eee;
+}
+
+@media only screen {
+	div.profiles_frame tr.done,div.profiles_frame tr.done:hover {
+		background-color:#eee;
+	}
+
+	div.profiles_frame tr:hover {
+		background-color:#ccc;
+	}
+
+
+	div.profiles_frame .tableRow.done,div.profiles_frame .tableRow.done:hover {
+		background-color:#eee;
+	}
+	div.profiles_frame .tableRow:hover {
+		background-color:#ccc;
+	}
+	div.profiles_frame .not_active:hover {
+		background-color:#ddd;
+	}
+}
+
+
+#profile_choice td.done {
+	background-color:#eee;
+}
+#profile_choice td {
+	background-color:#ddd;
+}
+#profile_choice .tableCell {
+	background-color:#ddd;
+}
+
+@media only screen {
+
+	#profile_choice td:hover {
+		background-color:#ccc;
+	}
+	#profile_choice .tableCell:hover {
+		background-color:#ccc;
+	}
+	#profile_choice .not_active.done:hover {
+		background-color:#eee;
+	}
+	#profile_choice .not_active:hover {
+		background-color:#ddd;
+	}
+}
+
+
+
+select {
+	color:#000;
+	background:#ddd;
+	border-color:#888;
+}
+@media only screen {
+	select:hover {
+		background-color:#aaa;
+	}
+}
+
+
+/*
+
+*/
+.loader {
+	border:10px solid #ddd;
+	border-top:10px solid #3498db; /* Blue */
+	border-right:10px solid #3498db; /* Blue */
+	border-bottom:10px solid #3498db; /* Blue */
+}
+

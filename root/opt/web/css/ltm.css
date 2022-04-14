@@ -1,0 +1,558 @@
+/*
+
+*/
+
+
+
+
+
+@media only screen and (min-width:700px) {
+	#activity_items fieldset.activity_line { height:320px; }
+}
+@media only screen and (min-width:800px) {
+	#activity_items fieldset.activity_line { height:360px; }
+}
+@media only screen and (min-width:400px) {
+	#settings_info td img { width:75px; }
+	#settings_info .tableCell img { width:75px; }
+}
+@media only screen and (min-width:700px) {
+	#settings_info td img { width:100px; }
+	#settings_info .tableCell img { width:100px; }
+}
+@media only screen and (min-width:800px) {
+	#settings_info td img { width:150px; }
+	#settings_info .tableCell img { width:150px; }
+}
+
+@media screen and (max-width:500px) {
+
+	input#history_selectall_but {
+		min-width:120px;
+	}
+
+	#history_items td,#calls_items td { padding-top:7px; padding-bottom:7px; }
+	#history_items .tableCell,#calls_items .tableCell,#calls_new .tableCell { padding-top:7px; padding-bottom:7px; }
+}
+
+@media only screen and (min-width: 1025px) {
+
+	#history_items td,#calls_items td { padding-top:9px; padding-bottom:9px; }
+	#history_items .tableCell,#calls_items .tableCell,#calls_new .tableCell { padding-top:9px; padding-bottom:9px; }
+}
+
+
+@media screen and (max-width:320px) {
+	.badge { width:18px; height:18px; }
+}
+
+
+@media screen and (min-width:500px) {
+	#left { width:220px; }
+	#right { width:220px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+legend span,legend a { font-size:14px; }
+
+@media screen {
+	button,input { font-size:14px; }
+	select { font-size:20px; }
+	legend span,legend a { font-size:14px; }
+}
+@media screen and (min-width:400px) {
+	button,input { font-size:16px; }
+	legend span,legend a { font-size:16px; }
+}
+@media screen and (min-width:500px) {
+	button,input { font-size:18px; }
+	legend span,legend a { font-size:18px; }
+}
+@media screen and (min-width:700px) {
+	button,input { font-size:20px; }
+	legend span,legend a { font-size:22px; }
+}
+
+
+@media screen and (max-width:320px) {
+	#title h1 { font-size:14px; }
+	#title h2 { font-size:10px; }
+	#title h3 { font-size:8px; }
+}
+@media only screen and (min-width:321px) {
+	#title h1 { font-size:18px; }
+	#title h2 { font-size:12px; }
+	#title h3 { font-size:10px; }
+}
+@media only screen and (min-width:700px) {
+	#title h1 { font-size:22px; }
+	#title h2 { font-size:18px; }
+	#title h3 { font-size:14px; }
+}
+@media only screen and (min-width:800px) {
+	#title h1 { font-size:24px; }
+	#title h2 { font-size:22px; }
+	#title h3 { font-size:18px; }
+}
+
+
+
+span.new::before { font-size:10px; }
+
+#activity_items div.time { font-size:12px; }
+
+
+#license_info div { font-size:12px; }
+
+#license_info button { font-size:10px; }
+
+
+
+/*
+
+*/
+
+#history_clear input[type=button],#history_clear button { font-size:11px; }
+
+
+button.record_stop { font-size:16px; }
+
+#activity_items div.status { font-size:16px; }
+
+#activity_items div.call_actions input[type=button],#activity_items td { font-size:12px; }
+
+
+#popup_history_info th { font-size:14px; }
+#popup_history_info td { font-size:16px; }
+
+#popup_history button,#popup_history input[type=button] { font-size:10px; }
+
+
+
+
+
+@media only screen {
+	#settings_info_info,#settings_info_info a,#settings_info_info input[type=button] { font-size:10px; }
+	#settings_items legend button.number { font-size:14px; }
+	#settings_options span { font-size:14px; }
+	#settings_options button,#settings_options input[type=button],button.email { font-size:14px; }
+
+	#license button.license_key { font-size:16px; }
+	#license_email div.caps,#license_info div { font-size:16px; }
+
+	#settings_info div#sw_update,#settings_info div#sw_update div { font-size:14px; }
+}
+
+@media only screen {
+	#popup_history button,#popup_history input[type=button] { font-size:6pt; }
+}
+
+@media only screen {
+	button.record_stop { font-size:14px; }
+	#activity_items div.status { font-size:20px; }
+	#popup_history button,#popup_history input[type=button] { font-size:7pt; }
+	#activity_items div.call_actions input[type=button],#activity_items td { font-size:20px; }
+}
+@media only screen and (max-width:400px) {
+	button.record_stop { font-size:10px; }
+}
+@media only screen and (min-width:400px) {
+	#activity_items div.call_actions input[type=button],#activity_items td { font-size:24px; }
+	#popup_history button,#popup_history input[type=button] { font-size:8pt; }
+
+	#settings_items legend button.number { font-size:20px; }
+	#sw_update button { font-size:14px; }
+
+	#settings_info td img { width:75px; }
+	#settings_info .tableCell img { width:75px; }
+	#settings_info_info,#settings_info_info a,#settings_info_info input[type=button] { font-size:12px; }
+
+	#settings_options span { font-size:18px; }
+	#settings_options button,#settings_options input[type=button],button.email { font-size:18px; }
+
+	#license button.license_key { font-size:22px; }
+	#license_email div.caps,#license_info div { font-size:22px; }
+}
+@media only screen and (min-width:500px) {
+	button.record_stop { font-size:18px; }
+
+	#popup_history button,#popup_history input[type=button] { font-size:12pt; }
+
+	#settings_info div#sw_update div { font-size:16px; }
+}
+@media only screen and (min-width:700px) {
+	button.record_stop { font-size:26px; }
+	#activity_items div.status { font-size:26px; }
+	#popup_history button,#popup_history input[type=button] { font-size:18px; }
+
+	#settings_items legend button.number { font-size:24px; }
+	#sw_update button { font-size:18px; }
+
+	#settings_info td img { width:100px; }
+	#settings_info .tableCell img { width:100px; }
+	#settings_info_info,#settings_info_info a,#settings_info_info input[type=button] { font-size:16px; }
+
+	#settings_options span { font-size:30px; }
+	#settings_options button,#settings_options input[type=button],button.email { font-size:28px; }
+
+	#settings_info div#sw_update,#settings_info div#sw_update div { font-size:18px }
+
+	#license button.license_key { font-size:32px; }
+	#license_email div.caps,#license_info div { font-size:22px; }
+}
+@media only screen and (min-width:800px) {
+	#activity_items div.status { font-size:36px; }
+	#popup_history button,#popup_history input[type=button] { font-size:28px; }
+
+	#settings_info td img { width:150px; }
+	#settings_info .tableCell img { width:150px; }
+}
+
+
+
+@media {
+	#calls_items .tableHeader,#history_items .tableHeader { font-size:10px; }
+
+	#calls_items div,#calls_new div { font-size:10px; }
+	#calls_items td,#calls_new td { font-size:10px; }
+
+	#history_items td { font-size:10px; }
+
+	#settings_info th { font-size:10px; }
+	#settings_info td { font-size:10px; }
+
+	#history_items div { font-size:12px; }
+	#settings_info .tableHeader { font-size:12px; }
+	#settings_info div { font-size:10px; }
+
+	#popup_history_img { font-size:32pt; }
+}
+@media only screen and (min-width: 400px) {
+	#calls_items .tableHeader,#history_items .tableHeader { font-size:13px; }
+
+	#calls_items td { font-size:13px; }
+	#calls_items div,#calls_new div { font-size:13px; }
+	#history_items td { font-size:13px; }
+	#history_items div { font-size:13px; }
+	#settings_info div { font-size:12px; }
+
+	#popup_history_info th { font-size:16px; }
+	#popup_history_info td { font-size:18px; }
+}
+
+@media only screen and (min-width: 500px) {
+	#calls_items .tableHeader,#history_items .tableHeader { font-size:16px; }
+
+	#calls_items td { font-size:16px; }
+	#calls_items div,#calls_new div { font-size:16px; }
+	#history_items td { font-size:16px; }
+	#history_items div { font-size:16px; }
+	#settings_info div { font-size:12px; }
+}
+@media only screen and (min-width: 700px) {
+	#calls_items .tableHeader,#history_items .tableHeader { font-size:22px; }
+
+	#calls_items div { font-size:22px; }
+	#calls_items div,#calls_new div { font-size:22px; }
+	#history_items div { font-size:22px; }
+	#settings_info div { font-size:15px; }
+
+	#popup_history_img { font-size:36px; }
+	#popup_history_info th { font-size:26px; }
+	#popup_history_info td { font-size:32px; }
+}
+
+
+
+#popup_history_info .tableHeader { font-size:14px; }
+#popup_history_info .tableCell { font-size:16px; }
+
+
+@media only screen {
+	#history_items .tableCell,#calls_items .tableCell,#calls_new .tableCell { font-size:12px; }
+}
+
+@media only screen and (min-width: 200px) {
+	#calls_items .tableCell,#calls_new .tableCell { font-size:12px; }
+	#history_items .tableCell { font-size:12px; }
+	#settings_info .tableHeader { font-size:12px; }
+	#settings_info .tableCell { font-size:10px; }
+}
+@media only screen and (min-width: 400px) {
+	#calls_items .tableCell,#calls_new .tableCell { font-size:13px; }
+	#history_items .tableCell { font-size:13px; }
+}
+@media only screen and (min-width: 500px) {
+	#calls_items .tableCell,#calls_new .tableCell { font-size:14px; }
+	#history_items .tableCell { font-size:14px; }
+}
+
+
+@media screen {
+	input#history_selectall_but,button#history_delete_but { font-size:14px; }
+}
+@media screen and (max-width:320px) {
+
+	input#history_selectall_but,button#history_delete_but { font-size:10px; }
+}
+
+@media screen and (max-width:500px) {
+
+	input#history_selectall_but,button#history_delete_but { font-size:12px; }
+}
+
+
+
+
+@media screen and (max-width:500px) {
+	.popup-head .popup-head-left { font-size:16px; }
+	.popup-head .popup-head-right a { font-size:20px; }
+}
+@media screen and (max-width:500px) {
+	.popup-head { font-size:16px; }
+}
+@media screen and (min-width:501px) {
+	.popup-head .popup-head-left { font-size:20px; }
+	.popup-head .popup-head-right a { font-size:26px; }
+}
+@media screen and (min-width:790px) {
+	.popup-head .popup-head-left { font-size:26px; }
+	.popup-head .popup-head-right a { font-size:30px; }
+}
+
+
+
+@media screen  {
+	div.nav_text { font-size:18px; }
+}
+@media screen and (max-width:320px) {
+	div.nav_text { font-size:14px; }
+}
+@media screen and (min-width:420px) {
+	div.nav_text { font-size:18px; }
+}
+@media screen and (min-width:500px) {
+	div.nav_text { font-size:20px; }
+}
+@media screen and (min-width:790px) {
+	div.nav_text { font-size:26px; }
+}
+
+
+
+
+#popup_history #counter { font-size:14px; }
+#err_mic { font-size:14px; }
+
+
+
+/*
+
+
+*/
+@media screen {
+	div.profiles h1 { font-size:16px; }
+	div.profile_lenny_img_fr h1 { font-size:16px; }
+	div.profile_lenny_img_fr h2 { font-size:14px; }
+	div.profile_lenny_img_fr h1 span { font-size:18px; }
+	div.profile_lenny_img_fr input[type=button] { font-size:16px; }
+
+	div.profiles_frame input[type=button].done,div.profiles_frame button.done { font-size:12px; }
+	div.profiles_frame input[type=button].save,div.profiles_frame button.save { font-size:10px; }
+
+	#profile_choice input[type=button].done { font-size:12px; }
+	#profile_choice label { font-size:18px; }
+}
+@media screen and (min-width:400px) {
+}
+@media screen and (min-width:500px) {
+	div.profiles h1 { font-size:20px; }
+	div.profile_lenny_img_fr h1 { font-size:22px; }
+	div.profile_lenny_img_fr h2 { font-size:20px; }
+	div.profile_lenny_img_fr h1 span { font-size:24px; }
+	div.profiles_frame input[type=button].done,div.profiles_frame button.done { font-size:16px; }
+	div.profiles_frame input[type=button].save,div.profiles_frame button.save { font-size:14px; }
+
+	#profile_choice input[type=button].done { font-size:16px; }
+	#profile_choice label { font-size:24px; }
+}
+
+
+#settings_items input[type=text] { font-size:16px; }
+
+
+
+
+
+
+
+
+.badge { font-size:14px; }
+
+@media screen and (max-width:320px) {
+	.badge { font-size:10px; }
+}
+
+
+
+
+
+
+
+/*
+
+*/
+
+#report input,#report textarea,#rating textarea { font-size:16px; }
+
+
+
+
+#left input[type=button],#right input[type=button] { font-size:20px; }
+
+
+
+#config input[type=button] { font-size:10px; }
+
+
+
+
+@media screen {
+	div.help p { font-size:20px; }
+
+	#signin img,#signin img#lenny { margin-top:30px; width:100px; height:122px; }
+
+	#signin h1,#license h1 { font-size:24px; }
+	#signin button,#signin input[type=button] { font-size:12px; }
+	#signin div.red,#license div.red { font-size:14px; }
+	#license input[type=button] { font-size:10px; padding-left:0;padding-right:0; }
+	#license input[type=text] { font-size:14px; }
+}
+@media only screen and (min-width:400px) {
+	#license input[type=button] { font-size:12px; }
+}
+@media only screen and (min-width:700px) {
+	div.help p { font-size:32px; }
+
+	#signin img,#signin img#lenny { margin-top:45px; width:150px; height:183px; }
+
+	#signin h1,#license h1 { font-size:28px; }
+	#signin button,#signin input[type=button] { font-size:24px; }
+	#signin div.red,#license div.red { font-size:22px; }
+	#license input[type=button] { font-size:20px; }
+	#license input[type=text] { font-size:20px; }
+}
+@media only screen and (min-width:800px) {
+	div.help p { font-size:42px; }
+
+	#signin img,#signin img#lenny { margin-top:60px; width:200px; height:244px; }
+
+	#signin h1,#license h1 { font-size:32px; }
+	#signin button,#signin input[type=button] { font-size:34px; }
+	#signin div.red,#license div.red { font-size:28px; }
+	#license input[type=button] { font-size:24px; }
+	#license input[type=text] { font-size:24px; }
+}
+
+
+
+@media screen {
+	#skiplist_about { font-size:14px; }
+	#skiplist button,#skiplisted button { font-size:12px; }
+
+	#skiplist td { font-size:12px; }
+	#skiplist td.number { font-size:16px; }
+	#skiplist td.to_right { font-size:10px; }
+	#skiplist td button,#skiplisted td button,#skiplisted td input[type=button] { font-size:12px; }
+	#skiplist td button.delete,#skiplisted td button.delete { font-size:15px; }
+
+	#skiplist .tableCell { font-size:12px; }
+	#skiplist .tableCell.number { font-size:16px; }
+	#skiplist .tableCell button,#skiplisted .tableCell button,#skiplisted .tableCell input[type=button] { font-size:12px; }
+	#skiplist .tableCell button.delete,#skiplisted .tableCell button.delete { font-size:15px; }
+}
+@media only screen and (min-width:500px) {
+	#skiplist_about { font-size:18px; }
+	#skiplist button,#skiplisted button { font-size:16px; }
+
+	#skiplist td { font-size:16px; }
+	#skiplist td.number { font-size:20px; }
+	#skiplist td.to_right { font-size:14px; }
+	#skiplist td button,#skiplisted td button,#skiplisted td input[type=button] { font-size:16px; }
+	#skiplist td button.delete,#skiplisted td button.delete { font-size:19px; }
+
+	#skiplist .tableCell { font-size:16px; }
+	#skiplist .tableCell.number { font-size:20px; }
+	#skiplist .tableCell.to_right { font-size:18px; }
+	#skiplist .tableCell button,#skiplisted .tableCell button,#skiplisted .tableCell input[type=button] { font-size:16px; }
+	#skiplist .tableCell button.delete,#skiplisted .tableCell button.delete { font-size:19px; }
+}
+@media only screen and (min-width:700px) {
+	#skiplist_about { font-size:20px; }
+}
+
+
+
+
+
+#popup_ogm_img { font-size:32pt; }
+
+
+
+@media only screen {
+	#popup_history a,#popup_ogm_current a,#popup_ogm_aud a { font-size:10px; }
+	#popup_ogm_line_title { font-size:22px; }
+	#popup_ogm_current_title { font-size:18px; }
+	#popup_ogm_nav a { font-size:24pt; }
+
+	#popup_ogm_info th { font-size:14px; }
+	#popup_ogm_info td { font-size:16px; }
+	#popup_ogm_info .tableHeader { font-size:14px; }
+	#popup_ogm_info .tableCell { font-size:16px; }
+	#popup_ogm button,#popup_ogm input[type=button] { font-size:16px; }
+}
+
+@media only screen and (min-width:400px) {
+	#popup_history a,#popup_ogm_current a,#popup_ogm_aud a { font-size:11px; }
+}
+@media only screen and (min-width:700px) {
+	#popup_history a,#popup_ogm_current a,#popup_ogm_aud a { font-size:12px; }
+}
+@media only screen and (min-width:800px) {
+}
+
+
+
+
+#popup_history_nav a { font-size:24pt; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+##
+##
+## sudo cp etc/lenny_service.txt /lib/systemd/system/lenny.service
+## sudo systemctl daemon-reload
+## sudo systemctl enable lenny
+## sudo systemctl start lenny
+##
+##
+
+[Unit]
+Description=Lenny - The Telemarketing Troll
+After=multi-user.target network-online.target
+
+[Service]
+Type=forking
+ExecStart=/home/pi/project/lenny/bin/lenny -d 
+Restart=always
+
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

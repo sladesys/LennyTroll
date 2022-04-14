@@ -1,0 +1,94 @@
+/*
+
+
+*/
+
+body {
+	color:#fff;
+	background-color:#000;
+}
+
+a,a:-webkit-any-link {
+	color:#fff;
+}
+a:hover,button,input {
+	background-color:#333;
+	color:#fff;
+}
+
+legend {
+	background-color:#000;
+}
+
+fieldset {
+	border:1px solid #ccc;
+}
+
+legend span,legend a {
+	background-color:#000;
+}
+
+button:hover,input[type=button]:hover {
+	background-color:#666;	
+}
+
+textarea,button,input[type=button],input[type=submit],input[type=text] {
+	color:#fff;
+	background-color:#444;
+	border:1px solid #555;
+}
+
+
+h2 { color:#888; }
+h3 { color:#888; }
+
+#main h2 {
+	color:#fff;
+	background-color:#444;
+}
+
+.border {
+	border-color:#333;
+}
+
+.popup-frame {
+	background-color:#ffffffc0;
+}
+
+
+
+/*
+
+*/
+
+@media only screen and (max-width: 600px) {
+
+	#menuToggle a {
+	  color:#fff;
+	}
+
+	#menuToggle a:hover {
+	  color:#aaa;
+	}
+
+	#menuToggle input {
+	  background-color:#fff;
+	}
+
+	#menuToggle span {
+	  background-color:#ccc;
+	}
+
+	#menuToggle input:checked ~ span {
+	  background-color:#444;
+	}
+
+
+	#menu {
+	  background-color:#222;
+	}
+
+}
+
+
+
