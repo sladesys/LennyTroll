@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-	<img alt="Lenny Troll" src="web/img/lenny_512.png" width="100"/>
+	<img alt="Lenny Troll" src="web/img/lenny_512.png" width="300"/>
 	<br/>
     <img alt="Platform" src="https://img.shields.io/badge/platform-linux-blue.svg"/>
     <img alt="Language" src="https://img.shields.io/badge/language-cpp-red.svg"/>
