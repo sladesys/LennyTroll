@@ -15,7 +15,7 @@
 <p align="center">
   <a href="#introduction">Introduction</a> •
   <a href="#build-for-raspberry-pi">Build for Raspberry Pi</a> •
-  <a href="#install">Install</a> •
+  <a href="#install-binary-package">Install</a> •
   <a href="#license">License</a>
 </p>
 
@@ -49,36 +49,62 @@ Building **Lenny Troll** requires two development libraries to be installed:
 **Lenny Troll** web site will require bypassing the security exception to accept the unsigned certificate.
 
 Building **Lenny Troll** requires a one-time download and build of the OpenSSL development library.
+
 ```bash
 
   # make lib_openssl
 
 ```
 
-### Build the **Lenny Troll** binary and website distributions
+### Build Debug & Release binary
+
+#### Build the **Lenny Troll** binary for debugging
 Build **Lenny Troll**.
+
 ```bash
 
-  # make
+  # make -build=DEBUG
 
 ```
 
+#### Build the **Lenny Troll** binary distributions
+Build **Lenny Troll**.
+
+```bash
+
+  # make -build=DEBUG
+
+```
+
+#### Build **Lenny Troll** binary packages
 Create **Lenny Troll** binary distribution tar and zip files.
+
 ```bash
 
   # make dist
 
 ```
 
+#### Build LennyTroll.com web package
+
+**Lenny Troll** is a Progressive Web App with lots of Browser based Javacript UI code that uses an obfuscation pass as part of the packaging layer.
+  * [Javascript-Obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)
+
+```bash
+
+  # node install javascript-obfuscator
+
+```
+
 Create **Lenny Troll** web site distribution tar file.
+
 ```bash
 
   # make dist_web
 
 ```
 
-
-## Install
+### Install Binary Package
 
 Follow the step-by-step [**Lenny Troll** Getting Started](https://lennytroll.com/start.php) Guide to run the newly built Lenny Troll daemon.
 
