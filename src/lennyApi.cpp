@@ -69,7 +69,7 @@ static char openFile[PATH_MAX];
 //
 //
 void startLenny() {
-	if (0 < mapLineToLenny.size()) { LOGC("alredy running"); return; }
+	if (0 < mapLineToLenny.size()) { LOGC("already running"); return; }
 	LOGC(" ");
 
 #ifdef LINUX
