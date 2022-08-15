@@ -36,6 +36,17 @@ function showHeader($title,$desc,$keywords) {
 //		$r .= str_replace($lf,'',file_get_contents('css/ll.css'));
 
 		$r .= '
+#github {
+padding:0.5em 0 0.5em 0;text-align:center;background-color:#282;
+	}
+#github,#github a {
+	color:#fff;font-size:1em
+}
+#github a:hover {
+	text-decoration:underline;
+	background-color:#282;
+	color:#fff;
+}
 </style>';
 	}
 
@@ -58,13 +69,14 @@ function showHeader($title,$desc,$keywords) {
 
 function showSimpleHeader() {
 	$r  = 
-'<div id="title">
+'<div id="github">Lenny is now open source at <a href="https://github.com/sladesys/LennyTroll">GitHub</a></div>
+<div id="title">
 <h1>Lenny - The Telemarketing Troll</h1>
 <h2>The Telemarketer’s Worst Nightmare</h2>
 
 </div>
 
-<div style="position:absolute;top:4px;right:10px"><img width="100" height="74" style="width:auto;height:74px" src="img/lenny_side.png" alt="lenny"/></div>
+<div style="position:absolute;top:4px;right:10px"><img width="100" height="74" style="margin-top:2em;width:auto;height:74px" src="img/lenny_side.png" alt="lenny"/></div>
 
 <div id="wrapper">
 ';
@@ -172,6 +184,7 @@ function showFooter() {
 		<h1>Follow Lenny Troll</h1>';
 		// <a href="mailto://thelennytroll.gmail.com" target="lenny"><img width="30" height="30" src="img/logo_email.svg">Email</img></a>
 	$r .= '
+	    <a href="https://github.com/sladesys/LennyTroll" target="lenny"><img width="30" height="30" src="img/logo_github.svg" alt="GitHub"/>GitHub</a>
 		<a href="https://www.facebook.com/lenny.troller.10" target="lenny"><img width="30" height="30" src="img/logo_facebook.svg" alt="Facebook"/>Facebook</a>
 		<a href="https://www.reddit.com/r/itslenny/" target="lenny"><img width="30" height="30" src="img/logo_reddit.svg" alt="Reddit"/>Reddit</a>';
 	// <a href="https://www.youtube.com/channel/UCrBZYWrikliO6EPZKM7KxVQ" target="lenny"><img width="30" height="30" src="img/logo_youtube.svg" alt="YouTube"/>YouTube</a>
