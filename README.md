@@ -72,7 +72,7 @@ Build **Lenny Troll**.
 
 ```bash
 
-  # make -build=DEBUG
+  # make -build=release
 
 ```
 
@@ -92,7 +92,7 @@ Create **Lenny Troll** binary distribution tar and zip files.
 
 ```bash
 
-  # node install javascript-obfuscator
+  # npm install javascript-obfuscator
 
 ```
 
